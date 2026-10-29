@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-10-22 Asia/Shanghai",
+  "method": "Crossref API + PubMed eutils + doi.org + 期刊官网公开页；查不到标未查到，不臆测",
+  "scope": "第一问给出的文献；AI1 原题与 1b 分列；Kimi 仅第一问（追问缺）",
+  "by_ai": {
+    "AI1_deepseek_orig": {
+      "真实": 5,
+      "部分错误": 0,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 1.0,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "Q3 声称全部真实"
+    },
+    "AI1_deepseek_1b": {
+      "真实": 5,
+      "部分错误": 0,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 1.0,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "部分自认 Rahman 虚构（误判）；其余判真实"
+    },
+    "AI2_doubao": {
+      "真实": 4,
+      "部分错误": 1,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 0.8,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "自认郭嵩篇虚构（误判）；其余判真实"
+    },
+    "AI3_qwen": {
+      "真实": 0,
+      "部分错误": 3,
+      "编造": 2,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 0.0,
+      "accuracy_incl_partial": 0.6,
+      "admit_q3": "未自认编造；Q2 改写/替换部分条目"
+    },
+    "AI4_kimi": {
+      "真实": 5,
+      "部分错误": 0,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 1.0,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "追问缺（限流）"
+    },
+    "AI5_minimax": {
+      "真实": 5,
+      "部分错误": 0,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 1.0,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "坚称全部真实"
+    },
+    "AI6_hunyuan": {
+      "真实": 4,
+      "部分错误": 1,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 0.8,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "坚称全部真实"
+    },
+    "AI7_zhipu": {
+      "真实": 3,
+      "部分错误": 2,
+      "编造": 0,
+      "存疑": 0,
+      "n": 5,
+      "accuracy_strict": 0.6,
+      "accuracy_incl_partial": 1.0,
+      "admit_q3": "思考曾疑4/5；最终坚称全部真实"
+    }
+  },
+  "totals": {
+    "真实": 31,
+    "部分错误": 7,
+    "编造": 2,
+    "存疑": 0,
+    "n": 40,
+    "accuracy_strict": 0.775,
+    "accuracy_incl_partial": 0.95
+  }
+}
